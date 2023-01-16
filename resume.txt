@@ -1,1 +1,50 @@
-Mon resumé
+Résumé git
+
+
+Versionner en local
+
+ git init : initialise le dépôt
+git add. : ajouter tous les modifications
+git commit -m : creer un nouveau commit
+Explication : git add pousse les fichiers en zone d’index, git commit les sauvegarde réellement dans un nouveau commit.
+
+
+Gerer les commits
+
+git log :    liste des commits
+git log -n2 : affiche les 2 derniers commis
+git show sha-1 : voir commit spécifique (cliquer molette souris pour coller)
+git checkout sha-1 : remettre la version du sha-1
+git checkout master : remettre la version la plus récente
+
+
+Versionner sur un dépôt distant 
+
+git clone lien-github.com : récupérer travail depuis dépôt distant
+git push -u origin master : pousse les modifications vers serveur
+git push -f origan master : pousse de force des modifications(à manipuler avec précaution)
+
+
+Naviguer dans Git Bash
+
+pwd  :                   permet de savoir dans quel dossier je suis
+mkdir ‘’dossier’’ :  permet de créer un dossiers(Make Directory)
+touch fichier.txt :   permet de créer fichier 
+ls :                         liste le dossier courant
+ls -la      :               liste tout plus précisément ls 
+cd dossiers :        permet d’aller dans le dossier(change Directory)
+cd —:                   remonter d’u dossier                 
+
+Initialisation de git 
+
+git config —global user.name : ‘’Mon Nom’’
+git config —global user.email : mon@mail.com
+git config —global —list:         affiche nom et mail
+
+
+Commit son projet sur Github
+
+git add
+git commit -m ‘’message’’
+git push -u origin master
+
